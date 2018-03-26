@@ -1,5 +1,10 @@
 body.signInBody {
-    background-color: #1D1924;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: black;
+    opacity: 0.9;
 }
 
 .container.signInContainer {
@@ -10,9 +15,9 @@ body.signInBody {
     /* padding: 40px 0px 20px; */
     background-color: #155F6C;
     color: #EAC67A;
-    box-shadow: 2px 2px 7px rgba(148, 77, 72, 0.6);
-    -webkit-box-shadow: 2px 2px 7px rgba(148, 77, 72, 0.6);
-    -mox-box-shadow: 2px 2px 7px rgba(148, 77, 72, 0.6);
+    box-shadow: 2px 2px 7px rgba(248, 178, 173, 0.7);
+    -webkit-box-shadow: 2px 2px 7px rgba(248, 178, 173, 0.7);
+    -mox-box-shadow: 2px 2px 7px rgba(248, 178, 173, 0.7);
 }
 
 h4.signinHeader {
@@ -21,6 +26,7 @@ h4.signinHeader {
     letter-spacing: 2px;
     padding-bottom: 10px;
 }
+
 img.signinImage {
     padding: 0 2rem 2rem;
     margin: auto;
@@ -31,4 +37,24 @@ img.signinImage {
 form.signinForm {
     max-width: 350px;
     margin:auto;  
+}
+
+button.signinButton {
+    color: white;
+    box-shadow: 2px 2px 2px rgba(148, 77, 72, 0.5);
+    width: 100%;
+    margin-bottom: 1.15rem;  
+}
+
+a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: #CA6766;
+}
+
+a.signinAccount {
+    display:block;
+    font-size:1.2rem;
+    text-align: center;
+    margin-top: 1.5rem;
 }
