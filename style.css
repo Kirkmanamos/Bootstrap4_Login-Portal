@@ -5,6 +5,7 @@ body.signInBody {
     background-repeat:no-repeat;
     background-color: black;
     opacity: 0.9;
+    min-height:780px;
 }
 
 .container.signInContainer {
@@ -52,9 +53,38 @@ a {
     color: #CA6766;
 }
 
-a.signinAccount {
-    display:block;
-    font-size:1.2rem;
-    text-align: center;
-    margin-top: 1.5rem;
+button.accountButton {
+    font-size: 1.3rem;
+    color: #CA6766;
+    width:100%;
+    margin-top: 2rem;
+    letter-spacing: 3px;
+}
+
+
+footer .footer {
+    height: 60px;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    margin:auto;
+    opacity: 0.98;
+}
+.footer img.footerTop {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.footer:hover .footerTop {
+    display: inline;
+}
+
+.images {
+    display: block;
+    margin: auto;
+    position: center;
+    width: 60px;
+    padding-top: 5rem;
 }
